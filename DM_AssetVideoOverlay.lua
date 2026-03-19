@@ -7,7 +7,7 @@ end
 -- ── Common shared libraries ────────────────────────────────────────────────
 
 local _script_dir = debug.getinfo(1, "S").source:match("@?(.*[/\\])")
-local DEMUTE_ROOT = _script_dir:match("^(.*[/\\])[^/\\]+[/\\]$")
+local DEMUTE_ROOT = _script_dir
 local COMMON      = DEMUTE_ROOT .. "Common/Scripts/"
 dofile(COMMON .. "DM_Colors.lua")
 dofile(COMMON .. "DM_ImageUtils.lua")
