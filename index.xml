@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Demute_toolkit">
+<index version="1" name="DM_AssetVideoOverlay">
   <category name="DM_AssetVideoOverlay">
     <reapack name="DM_AssetVideoOverlay" type="script">
       <version name="0.1.0-beta" author="Demute">
